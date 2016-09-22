@@ -1,0 +1,85 @@
+@media screen and (min-width: 700px) {
+
+    #top-logo {
+        background-image: url("../img/Likely-logo-text-icon.png");
+        background-size: 190px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90px;
+        width: 24%;
+        display: inline-block;
+        margin: auto;
+        padding-top: 20px;
+        float: left;
+    }
+
+    #logo-line {
+        float: left;
+        display: inline-block;
+        width: 40%;
+        text-align: left;
+        margin-top: 2.7rem;
+        margin-left: -2rem;
+        color: #000;
+    }
+
+    #user-info {
+        min-height: 70px;
+        border: solid 1px #e8e8e8;
+        border-radius: 10px 10px 0 0;
+        border-bottom: none;
+    }
+
+    .user-photo {
+        width: 5rem;
+    }
+
+    #upload-photo input {
+        width: 50%;
+    }
+
+    #upload-box {
+        border: solid 1px #e8e8e8;
+        width: 90%;
+        border-radius: 0 0 10px 10px;
+        margin: auto;
+        min-height: 10rem;
+    }
+
+    #upload-photo {
+        background-image: url("../img/icon-photo.png");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+        height: 9rem;
+        margin: auto;
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+
+    #upload-caption {
+        background-image: url("../img/icon-caption.png");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+        height: 9rem;
+        margin: auto;
+        border-radius: 0 0 10px 0;
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-height: 10rem;
+        border: none;
+    }
+
+    #predict-button input {
+        width: 20%;
+        right: -40%;
+    }
+
+}
+
+@media screen and (min-width: 1080px){
+
+}
