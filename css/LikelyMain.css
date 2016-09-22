@@ -205,7 +205,18 @@ body {
 
 .upload-text {
     text-align: center;
-    padding-top: 4.5rem;
+    padding-top: 4rem;
+    width: 80%;
+    position: relative;
+    right: -10%;
+}
+
+.upload-text input {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    right: -10%;
+    margin-top: 1rem;
 }
 
 #predict-button {
