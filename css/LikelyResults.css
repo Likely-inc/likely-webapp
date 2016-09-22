@@ -113,6 +113,7 @@ a {
 #post-image {
     width: 100%;
     margin-top: -60%;
+    min-height: 30rem;
 }
 
 #post-image img {
