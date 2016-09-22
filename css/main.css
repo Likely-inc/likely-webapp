@@ -149,7 +149,9 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
-
+a {
+    text-decoration: none;
+}
 .line {
     border-bottom: solid 1px #9b9b9b;
     margin: -10px auto 20px auto;
