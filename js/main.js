@@ -1,0 +1,3 @@
+function uploadPhoto() {
+    alert("UPLOAD!")
+}
