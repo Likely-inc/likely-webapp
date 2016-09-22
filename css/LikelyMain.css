@@ -211,7 +211,7 @@ body {
     right: -10%;
 }
 
-.upload-text input {
+#upload-caption input {
     width: 80%;
     margin: auto;
     position: relative;
