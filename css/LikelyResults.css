@@ -112,7 +112,7 @@ a {
 
 #post-image {
     width: 100%;
-    margin-top: -60%;
+    margin-top: -40%;
     min-height: 10rem;
 }
 
@@ -121,7 +121,7 @@ a {
 }
 
 #likes-results {
-    margin-top: -2rem;
+    margin-top: -3rem;
     z-index: 0;
 }
 
