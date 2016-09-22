@@ -106,47 +106,57 @@ body {
     font-family: "Proxima Nova", Arial;
 }
 
+a {
+    text-decoration: none;
+}
+
+#post-image {
+    width: 100%;
+    margin-top: -60%;
+}
+
+#post-image img {
+    width: 100%;
+}
+
+#likes-results {
+    margin-top: -2rem;
+    z-index: 0;
+}
+
+#likes {
+    height: 5rem;
+    border-radius: 2.5rem;
+    width: 5rem;
+    background: linear-gradient(to top right, #fccc63, #fbad50 ,#e95950, #bc2a8d, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9);
+    position: relative;
+    margin: 0.5rem auto;
+    color: #fff;
+    font-size: 3.2em;
+    text-align: center;
+    line-height: 5rem;
+}
+
+#likes_expected {
+    text-align: center;
+}
+
+
 #content-wrapper {
     width: 90%;
-    margin: 5% auto;
-    /*background-color: yellow;*/
-}
-
-
-#logo-box {
-    min-height: 110px;
-    /*background-color: #b3d4fc;*/
-}
-
-#top-logo {
-    background-image: url("../img/Likely-logo-text-icon.png");
-    background-size: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 90px;
-    width: 50%;
-    display: inline-block;
     margin: auto;
-    padding-top: 20px;
-    float: left;
 }
 
-#logo-line {
-    float: left;
-    display: inline-block;
-    width: 50%;
-    text-align: center;
-    margin-top: 2.7rem;
-    color: #000;
+#post-info {
+    margin-top: 1rem;
+    border: solid 1px #e8e8e8;
+    border-radius: 10px;
 }
 
-#logo-line a {
-    color: #000;
-}
 
 #user-info {
-    min-height: 80px;
-    border-top: solid 1px #e8e8e8;
+    min-height: 4rem;
+    border-bottom: solid 1px #e8e8e8;
     width: 90%;
     margin: auto;
     padding-top: 1rem;
@@ -155,7 +165,6 @@ body {
 .user-photo {
     display: inline-block;
     float: left;
-    width: 47%;
 }
 
 .user-photo img {
@@ -170,69 +179,46 @@ body {
     display: inline-block;
     float: left;
     width: 50%;
-    font-size: 1.2em;
-    margin-top: 1rem;
-}
-
-#upload-box {
-    border: solid 1px #e8e8e8;
-    width: 90%;
-    border-radius: 10px;
-    margin: auto;
+    font-size: 1em;
+    margin-top: 0.8rem;
 }
 
 .bold-name {
     font-weight: bold;
 }
 
-#upload-caption {
-    background-color: #f2f2f2;
-    border-top: solid 1px #e8e8e8;
+#caption-text {
+    text-align: left;
+    min-height: 2rem;
+    padding: 1rem;
 }
 
-.icon {
-    height: 40px;
-}
-
-#upload-photo {
-    background-image: url("../img/icon-photo.png");
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    height: 9rem;
+.button {
+    height: 2rem;
     margin: auto;
-}
-
-#upload-caption {
-    background-image: url("../img/icon-caption.png");
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    height: 9rem;
-    margin: auto;
-    border-radius: 0 0 10px 10px;
-}
-
-.upload-text {
     text-align: center;
-    padding-top: 4.5rem;
-    width: 80%;
-    position: relative;
-    right: -10%;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding-top: 0.7rem;
+    color: #fff;
 }
 
-#upload-caption input {
-    width: 80%;
-    margin: auto;
-    position: relative;
-    right: -10%;
+#post_button {
+    width: 40%;
+    background-color: #8a3ab9;
     margin-top: 1rem;
 }
 
-#upload-photo input {
-    width: 80%;
-    padding-top: 1rem;
+#change_button {
+    width: 60%;
+    background-color: #cd486b;
+    margin: 1rem auto 4rem auto;
 }
+
+
+
+
+
 
 #predict-button input{
     background: linear-gradient(to top right, #fccc63, #fbad50 ,#e95950, #bc2a8d, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9);
