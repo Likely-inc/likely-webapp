@@ -50,24 +50,29 @@
                 </div>
             </div>
 
-            <div id = "upload-box">
-                <div id = "upload-photo">
-                    <div class = "upload-text">
-                        <div>Upload photo </div>
-                        <input type="file">
+            <form enctype="multipart/form-data" action="/upload" method="post">
+
+                <div id = "upload-box">
+                    <div id = "upload-photo">
+                        <div class = "upload-text">
+                            <div>Upload photo </div>
+                            <input type="file" name = "filearg">
+                        </div>
+                    </div>
+
+                    <div id = "upload-caption">
+                        <div class = "upload-text">
+                            Write a caption...
+                            <input type="text" name = "captionarg">
+                        </div>
                     </div>
                 </div>
+                <input type="submit" value="upload">
 
-                <div id = "upload-caption">
-                    <div class = "upload-text">
-                        Write a caption...
-                    </div>
+                <div id = "predict-button" onclick="uploadPhoto()">
+                    PREDICT
                 </div>
-            </div>
-
-            <div id = "predict-button" onclick="uploadPhoto()">
-                PREDICT
-            </div>
+            </form>
 
         </div>
         <script src="js/plugins.js"></script>
