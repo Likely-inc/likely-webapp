@@ -201,6 +201,7 @@ body {
     background-position: 50% 30%;
     height: 9rem;
     margin: auto;
+    border-radius: 0 0 10px 10px;
 }
 
 .upload-text {
@@ -227,12 +228,15 @@ body {
 #predict-button input{
     background: linear-gradient(to top right, #fccc63, #fbad50 ,#e95950, #bc2a8d, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9, #8a3ab9);
     color: #fff;
+    border: none;
     border-radius: 0.5rem;
     width: 50%;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
     height: 3rem;
+    position: relative;
+    right: -25%;
     margin: 2rem auto;
     padding-top: 1rem;
 }
