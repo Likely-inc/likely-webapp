@@ -233,9 +233,6 @@ a {
 }
 
 
-.bar_line {
-    border-left: solid 1px red;
-}
 #suggestions {
     text-align: center;
     border: solid 1px #e8e8e8;
@@ -251,7 +248,7 @@ a {
     margin-bottom: 2rem;
 }
 .likes_value {
-    background-color: #8a3ab9;
+    background-color: #fbad50;
     position: absolute;
     height: 1.6rem;
     width: 1.6rem;
