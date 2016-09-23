@@ -252,6 +252,7 @@ body {
 
 #loader_cont{
     display: none;
+    margin: auto;
 }
 
 .loader {
