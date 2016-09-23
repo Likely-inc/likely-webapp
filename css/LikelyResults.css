@@ -232,6 +232,10 @@ a {
     align-self: flex-end;
 }
 
+
+.bar_line {
+    border-left: solid 1px red;
+}
 #suggestions {
     text-align: center;
     border: solid 1px #e8e8e8;
