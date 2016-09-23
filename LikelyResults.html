@@ -83,6 +83,17 @@
 
                     <div id="bars" style="display: flex">
 
+                        {% block div %}
+                            {% for entry in hour_likes %}
+
+                                <div class="bar">
+                                    <div class="likes_value" style="bottom: {{entry[2]}}%">{{entry[1]}}</div>
+                                    <div class="hour_value">{{entry[0]}}</div>
+                                </div>
+
+                            {% end %}
+                        {% end %}
+                        
                     </div>
 
 
