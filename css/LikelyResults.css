@@ -207,7 +207,7 @@ a {
 #post_button {
     width: 40%;
     background-color: #8a3ab9;
-    margin-top: 1rem;
+    margin: 1rem auto;
 }
 
 #change_button {
